@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input, button {
+    border: gray solid 1px;
+    border-radius: 24px;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    font-size: 18px;
+    transition: background-color 500ms ease, border 500ms ease;
+}
+
+input {
+    background-color: lightgray;
+}
+
+input:focus {
+    background-color: darkgray;
+}
+
+button:hover {
+    transition-duration: 500ms;
+    background-color: darkgray;
+    border: black solid 1px;
+}
+
+#link {
+    margin-bottom: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+#clue {
+    margin-top: 0;
+    color: green;
+    font-weight: bold;
+}
+
+#passwordLabel {
+    font-size: 20px;
+    font-weight: bold;
+}
